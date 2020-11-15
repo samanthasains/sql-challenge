@@ -1,6 +1,6 @@
 --Create title table, set title_id as primary key
 CREATE TABLE titles (
-    title_id VARCHAR(30),
+    title_id VARCHAR(10),
     title VARCHAR(30),
     PRIMARY KEY (title_id)
 );
